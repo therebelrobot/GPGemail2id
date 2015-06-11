@@ -1,0 +1,34 @@
+{
+  "name": "gpg-email2id",
+  "version": "1.0.0",
+  "description": "A simple node module that takes an email address and returns the ID of the corresponding PGP key. Requires GPG.",
+  "main": "gpg-email2id.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/therebelrobot/gpg-email2id.git"
+  },
+  "keywords": [
+    "gpg",
+    "pgp",
+    "email",
+    "id",
+    "keys",
+    "key",
+    "local"
+  ],
+  "author": "Trent Oswald <trentoswald@therebelrobot.com> (@therebelrobot)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/therebelrobot/gpg-email2id/issues"
+  },
+  "homepage": "https://github.com/therebelrobot/gpg-email2id#readme",
+  "dependencies": {
+    "colors": "^1.1.0",
+    "debug-log2": "^1.0.0",
+    "lodash": "^3.9.3",
+    "prompt": "^0.2.14"
+  }
+}
